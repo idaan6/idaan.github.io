@@ -170,3 +170,18 @@ ul.links li:not(:last-child) {
     opacity: 0;
   }
 }
+
+/* Tata letak untuk layar besar (desktop) */
+@media screen and (min-width: 1024px) {
+  /* Atur lebar konten, padding, margin, dll. */
+}
+
+/* Tata letak untuk layar menengah (tablet) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  /* Atur ulang tata letak, ukuran font, dll. */
+}
+
+/* Tata letak untuk layar kecil (ponsel) */
+@media screen and (max-width: 767px) {
+  /* Atur tata letak untuk layar kecil, misalnya stacking elemen, mengubah menu, dll. */
+}
