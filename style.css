@@ -171,6 +171,12 @@ ul.links li:not(:last-child) {
   }
 }
 
+button:active {
+  /* Tambahkan efek aktif di sini */
+  transform: translateY(1px); /* Contoh: Memindahkan tombol ke bawah sedikit */
+}
+
+
 /* Tata letak untuk layar besar (desktop) */
 @media screen and (min-width: 1024px) {
   /* Atur lebar konten, padding, margin, dll. */
