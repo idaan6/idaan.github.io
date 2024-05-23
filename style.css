@@ -86,7 +86,7 @@ ul.links li:not(:last-child) {
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 8px 10px 0 #0f0f25;
-  border: 2px solid #2d2d56;
+  border: 5px solid #2d2d56;
 }
 
 .link-card:hover {
@@ -151,6 +151,7 @@ ul.links li:not(:last-child) {
   animation: hilang 1s ease-in-out 1s;
 }
 
+
 @keyframes muncul {
   from {
     opacity: 0;
@@ -170,12 +171,6 @@ ul.links li:not(:last-child) {
     opacity: 0;
   }
 }
-
-button:active {
-  /* Tambahkan efek aktif di sini */
-  transform: translateY(1px); /* Contoh: Memindahkan tombol ke bawah sedikit */
-}
-
 
 /* Tata letak untuk layar besar (desktop) */
 @media screen and (min-width: 1024px) {
