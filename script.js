@@ -13,7 +13,7 @@ actionLink.forEach((action) => {
     navigator.clipboard.writeText(action.parentElement.getAttribute("href"));
 
     /**
-     * Menampilkan toast notification dengan animasi fade-in yang elegan
+     * Menampilkan toast notification dengan animasi fade-in yang elegan  
      */
     document.getElementById("toast").innerHTML = `
         <div class="toast-container">
