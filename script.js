@@ -1,5 +1,5 @@
 /**
- * Untuk membuat link bisa dicopy
+ * Fungsi untuk mengaktifkan fitur copy pada link yang kompatibel dengan Android
  */
 const actionLink = document.querySelectorAll(".link-card .link-action");
 
