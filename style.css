@@ -182,7 +182,7 @@ ul.links li:not(:last-child) {
   /* Atur ulang tata letak, ukuran font, dll. */
 }
 
-/* Tata letak untuk layar kecil (ponsel) */
+/* Tata letak untuk layar kecil (hp) */
 @media screen and (max-width: 767px) {
   /* Atur tata letak untuk layar kecil, misalnya stacking elemen, mengubah menu, dlll. */
 }

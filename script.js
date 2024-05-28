@@ -1,5 +1,5 @@
 /**
- * Fungsi untuk mengaktifkan fitur copy pada link yang kompatibel dengan Android elegan
+ * Fungsi untuk mengaktifkan fitur copy pada link yang kompatibel dengan Android
  */
 const actionLink = document.querySelectorAll(".link-card .link-action");
 actionLink.forEach((action) => {
