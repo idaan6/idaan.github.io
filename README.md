@@ -1,1 +1,1 @@
-git add .
+aku idaan
