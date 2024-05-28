@@ -2,6 +2,10 @@
  * Fungsi untuk mengaktifkan fitur copy pada link yang kompatibel dengan Android
  */
 const actionLink = document.querySelectorAll(".link-card .link-action");
+actionLink.forEach((action) => {
+  action.style.cursor = 'pointer';
+  action.style.fontSize = '24px'; // Meningkatkan ukuran ikon
+});
 
 actionLink.forEach((action) => {
   action.addEventListener("click", (e) => {
